@@ -1,0 +1,37 @@
+<div class="lurt-container {{themeClass}}">
+    <header class="lurt-header">
+        <div class="controls flexrow">
+            <div class="theme-control">
+                <label>Theme:</label>
+                <select name="theme" class="theme-select">
+                    {{#each themes}}
+                    <option value="{{this.id}}" {{#if this.active}}selected{{/if}}>{{this.name}}</option>
+                    {{/each}}
+                </select>
+            </div>
+            <button type="button" class="open-json"><i class="fas fa-file-upload"></i> Open JSON</button>
+            <button type="button" class="next-round"><i class="fas fa-redo"></i> Next Round</button>
+        </div>
+    </header>
+    
+    <div class="reaction-list">
+        {{#each reactions}}
+        <div class="reaction-item flexrow {{#if this.exhausted}}exhausted{{/if}}" data-id="{{this.ID}}">
+            <div class="reaction-content">
+                <h3 class="reaction-name {{#if this.exhausted}}strikethrough{{/if}}">{{this.Name}}</h3>
+                <div class="reaction-details">
+                    <p><strong>Trigger:</strong> {{this.Trigger}}</p>
+                    <p><strong>Frequency:</strong> {{this.Frequency}}</p>
+                    <p><strong>Detail:</strong> {{this.Detail}}</p>
+                </div>
+            </div>
+            <div class="reaction-actions">
+                <button type="button" class="use-reaction" {{#if this.exhausted}}disabled{{/if}}>
+                    {{#if this.exhausted}}Used{{else}}Use{{/if}}
+                    {{#if this.usesCount}}({{this.uses}}/{{this.maxUses}}){{/if}}
+                </button>
+            </div>
+        </div>
+        {{/each}}
+    </div>
+</div>

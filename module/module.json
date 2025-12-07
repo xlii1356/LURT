@@ -1,0 +1,22 @@
+{
+    "id": "lurt-foundry",
+    "title": "Lancer Ultimate Reaction Tracker",
+    "description": "Port of the Lancer Ultimate Reaction Tracker to Foundry VTT.",
+    "version": "1.0.0",
+    "compatibility": {
+        "minimum": "10",
+        "verified": "12"
+    },
+    "author": "Hadson",
+    "esmodules": [
+        "scripts/lurt.js"
+    ],
+    "styles": [
+        "styles/lurt.css"
+    ],
+    "languages": [],
+    "packs": [],
+    "url": "https://github.com/Start9/LURT",
+    "manifest": "",
+    "download": ""
+}

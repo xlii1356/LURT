@@ -1,0 +1,502 @@
+[
+  {
+    "LCP": "dustgrave-data-1.3.1.lcp",
+    "json_inside_zip": "pilot_gear.json",
+    "min_talent_rank": "",
+    "Parent_ID": "ms_madrigal_personal_shield",
+    "Name": "Shielded",
+    "Trigger": "You take damage.",
+    "Frequency": "1/round",
+    "Detail": "You may expend a charge to gain Resistance to that damage."
+  },
+  {
+    "LCP": "dustgrave-data-1.3.1.lcp",
+    "json_inside_zip": "reserves.json",
+    "min_talent_rank": "",
+    "Parent_ID": "reserve_automated_reflex_suite",
+    "Name": "Automated Reflex Suite",
+    "Trigger": "You are hit by an attack.",
+    "Frequency": "1/mission",
+    "Detail": "The attack automatically misses."
+  },
+  {
+    "LCP": "dustgrave-data-1.3.1.lcp",
+    "json_inside_zip": "talents.json",
+    "min_talent_rank": "",
+    "Parent_ID": "t_field_analyst",
+    "Name": "Superior Intelligence",
+    "Trigger": "An allied character in Line of Sight has rolled an Attack Roll.",
+    "Frequency": "2/round",
+    "Detail": "You may add 1 to the attack roll. This may cause an attack to hit or to critically hit. Each attack roll can only be affected this way once."
+  },
+  {
+    "LCP": "dustgrave-data-1.3.1.lcp",
+    "json_inside_zip": "talents.json",
+    "min_talent_rank": "",
+    "Parent_ID": "t_prospector",
+    "Name": "Subterranean Reposition",
+    "Trigger": "During your turn, you are completely within an Entrance.",
+    "Frequency": "1/round",
+    "Detail": "You immediately Tunnel, ending the movement completely within a different Entrance created by the same character as the first."
+  },
+  {
+    "LCP": "ktb-data-1.2.3.lcp",
+    "json_inside_zip": "systems.json",
+    "min_talent_rank": "",
+    "Parent_ID": "ms_camuss_razor",
+    "Name": "Intervention",
+    "Trigger": "An allied character within Range 5 and line of sight is targeted by an action that deals kinetic or explosive damage.",
+    "Frequency": "1/round",
+    "Detail": "You become the target of the action instead. If the action was an area of effect, such as a line, cone, blast, etc, the attacker must now position it so it targets you, or as close as possible, which could change its targets. This transfer takes place even if the original could not have hit you (i.e., it was a melee attack)."
+  },
+  {
+    "LCP": "lancer-data-master.lcp",
+    "json_inside_zip": "core_bonuses.json",
+    "min_talent_rank": "",
+    "Parent_ID": "cb_the_lesson_of_the_held_image",
+    "Name": "Lesson of the Held Image",
+    "Trigger": "Any allied character starts their turn",
+    "Frequency": "1/round",
+    "Detail": "Make a Lock On tech action against any character within line of sight and Sensors."
+  },
+  {
+    "LCP": "lancer-data-master.lcp",
+    "json_inside_zip": "frames.json",
+    "min_talent_rank": "",
+    "Parent_ID": "mf_black_witch",
+    "Name": "Mag Parry",
+    "Trigger": "An incoming attack will deal Kinetic Damage to you or an adjacent allied character",
+    "Frequency": "1/round",
+    "Detail": "Roll 1d6: on 5+, the attack misses. This effect does not stack with Invisible."
+  },
+  {
+    "LCP": "lancer-data-master.lcp",
+    "json_inside_zip": "frames.json",
+    "min_talent_rank": "",
+    "Parent_ID": "mf_goblin",
+    "Name": "Reactive Code",
+    "Trigger": "You are hit by a Tech Attack.",
+    "Frequency": "1/round",
+    "Detail": "You may take any Quick Tech option against the attacker as a reaction."
+  },
+  {
+    "LCP": "lancer-data-master.lcp",
+    "json_inside_zip": "frames.json",
+    "min_talent_rank": "",
+    "Parent_ID": "mf_hydra",
+    "Name": "Snare Drone",
+    "Trigger": "A character starts their turn adjacent to this drone or moves adjacent to it for the first time in a round",
+    "Frequency": "1/round",
+    "Detail": "Target must make an AGILITY save. On a failure, they become IMMOBILIZED. They only cease to be IMMOBILIZED when the drone is destroyed or no longer adjacent, or they succeed on an AGILITY save as a quick action."
+  },
+  {
+    "LCP": "lancer-data-master.lcp",
+    "json_inside_zip": "frames.json",
+    "min_talent_rank": "",
+    "Parent_ID": "mf_hydra",
+    "Name": "Shredder Drone",
+    "Trigger": "A character starts their turn adjacent to this drone or moves adjacent to it for the first time in a round",
+    "Frequency": "1/round",
+    "Detail": "Target must make a HULL save. On a failure, they take  kinetic damage and become SHREDDED until the end of their next turn."
+  },
+  {
+    "LCP": "lancer-data-master.lcp",
+    "json_inside_zip": "frames.json",
+    "min_talent_rank": "",
+    "Parent_ID": "mf_hydra",
+    "Name": "Hunter Drone",
+    "Trigger": "A character starts their turn adjacent to this drone or moves adjacent to it for the first time in a round",
+    "Frequency": "1/round",
+    "Detail": "Target must make a SYSTEMS save. On a failure, they receive LOCK ON."
+  },
+  {
+    "LCP": "lancer-data-master.lcp",
+    "json_inside_zip": "frames.json",
+    "min_talent_rank": "",
+    "Parent_ID": "mf_saladin",
+    "Name": "Warp Shield",
+    "Trigger": "You or an allied character in Sensors and line of sight is targetted with an attack.",
+    "Frequency": "1/round",
+    "Detail": "Apply +1 Difficulty to the Attack"
+  },
+  {
+    "LCP": "lancer-data-master.lcp",
+    "json_inside_zip": "frames.json",
+    "min_talent_rank": "",
+    "Parent_ID": "mf_saladin",
+    "Name": "Defensive Pulse",
+    "Trigger": "Your target is attacked.",
+    "Frequency": "1/round",
+    "Detail": "You empower their tachyon shield with a pulse of energy. They gain Resistance to all damage from the attack, and if the attack misses, you may force the attacker to reroll it against a character or object of your choice, checking line of sight and Range from your target instead of from the attacker. If the attack was part of an area of effect, the new target must be inside the same area of effect from the original attack instead."
+  },
+  {
+    "LCP": "lancer-data-master.lcp",
+    "json_inside_zip": "frames.json",
+    "min_talent_rank": "",
+    "Parent_ID": "mf_swallowtail",
+    "Name": "Tactical Simulation (Core System)",
+    "Trigger": "An allied character in line of sight takes damage from another character in line of sight.",
+    "Frequency": "1/round",
+    "Detail": "Effect: Roll 1d6. On 4+, the attack was actually a simulation predicted by your processor - your ally gains Resistance to all damage dealt by the attack and may teleport up to 3 spaces, representing their \"true\" location. On 3 or less, there's a glitch, your allied doesn't gain Resistance, but can teleport up to 6 spaces."
+  },
+  {
+    "LCP": "lancer-data-master.lcp",
+    "json_inside_zip": "frames.json",
+    "min_talent_rank": "",
+    "Parent_ID": "mf_tortuga",
+    "Name": "Hyper-Reflex Mode (Core System)",
+    "Trigger": "A hostile character starts any movement (including BOOST and other actions) inside one of your weapons THREAT.",
+    "Frequency": "1/round",
+    "Detail": "Trigger OVERWATCH, immediately using that weapon to SKIRMISH against that character as a reaction, before they move."
+  },
+  {
+    "LCP": "lancer-data-master.lcp",
+    "json_inside_zip": "systems.json",
+    "min_talent_rank": "",
+    "Parent_ID": "ms_aegis_shield_generator",
+    "Name": "Aegis Shield Generator",
+    "Trigger": "While the shield is deployed,  any character or object of your choice at least partly in the area takes damage",
+    "Frequency": "Unlimited (as long as you have Shield Die remaining)",
+    "Detail": "You may roll one of the d6s to reduce the damage by the amount rolled."
+  },
+  {
+    "LCP": "lancer-data-master.lcp",
+    "json_inside_zip": "systems.json",
+    "min_talent_rank": "",
+    "Parent_ID": "ms_assassin_drone",
+    "Name": "Area Denial",
+    "Trigger": "A hostile character starts movement in or enters the area targeted by your assassin drone.",
+    "Frequency": "Unlimited",
+    "Detail": "You can make a ranged attack against them with the drone, gaining your Grit as a bonus to its roll, and dealing 3 Kinetic Damage."
+  },
+  {
+    "LCP": "lancer-data-master.lcp",
+    "json_inside_zip": "systems.json",
+    "min_talent_rank": "",
+    "Parent_ID": "ms_enclave_pattern_support_shield",
+    "Name": "Blinkfield Intervention",
+    "Trigger": "A character or object within the affected area is attacked.",
+    "Frequency": "1/round",
+    "Detail": "Take two Heat, then grant the attack's target Resistance to all damage from this attack."
+  },
+  {
+    "LCP": "lancer-data-master.lcp",
+    "json_inside_zip": "systems.json",
+    "min_talent_rank": "",
+    "Parent_ID": "ms_flash_anchor",
+    "Name": "Flash Lock",
+    "Trigger": "You or an allied character in Sensors and line of sight is pushed, pulled, knocked back or knocked Prone.",
+    "Frequency": "1/round",
+    "Detail": "Take 2 Heat. The movement or status is prevented, and the target gains Immunity to all the above effects until the start of their next turn."
+  },
+  {
+    "LCP": "lancer-data-master.lcp",
+    "json_inside_zip": "systems.json",
+    "min_talent_rank": "",
+    "Parent_ID": "ms_markerlight",
+    "Name": "Markerlight",
+    "Trigger": "Once before the start of your next turn, when an allied character hits your targe.",
+    "Frequency": "1/round",
+    "Detail": "You may declare as a reaction that they have hit a weak spot. If it wasn\u2019t already, the attack becomes a critical hit."
+  },
+  {
+    "LCP": "lancer-data-master.lcp",
+    "json_inside_zip": "systems.json",
+    "min_talent_rank": "",
+    "Parent_ID": "ms_mimic_mesh",
+    "Name": "Battlefield Awareness",
+    "Trigger": "A hostile action is taken against your target.",
+    "Frequency": "Unlimited",
+    "Detail": "You may move 3 spaces towards your target, by the most direct route possible. This movement interrupts and resolves before the triggering action, ignores engagement and doesn't provoke reactions. This reaction can be taken as many times per round as it is triggered."
+  },
+  {
+    "LCP": "lancer-data-master.lcp",
+    "json_inside_zip": "systems.json",
+    "min_talent_rank": "",
+    "Parent_ID": "ms_monitor_module",
+    "Name": "Monitor Module",
+    "Trigger": "Whenever your target is attacked while adjacent to you",
+    "Frequency": "Unlimited",
+    "Detail": "Expend a CHARGE to SKIRMISH against their attacker as a reaction, dealing half damage, heat or, burn on hit. All charges are lost when this effect ends."
+  },
+  {
+    "LCP": "lancer-data-master.lcp",
+    "json_inside_zip": "systems.json",
+    "min_talent_rank": "",
+    "Parent_ID": "ms_noah_class_nhp",
+    "Name": "Diluvian Ark",
+    "Trigger": "While active, each time you or an allied adjacent character are targeted by a ranged attack",
+    "Frequency": "Unlimited",
+    "Detail": "you may take 1 heat as a reaction and roll 1d6 before the attacker rolls: on 4+, you take an additional 1 heat and the attack automatically misses you and any allies adjacent toyou. This effect does not stack with INVISIBLE"
+  },
+  {
+    "LCP": "lancer-data-master.lcp",
+    "json_inside_zip": "systems.json",
+    "min_talent_rank": "",
+    "Parent_ID": "ms_scylla_class_nhp",
+    "Name": "Unleash SCYLLA",
+    "Trigger": "One of the following, chosen when the Unleash SCYLLA action is taken: A hostile character makes an attack against you or an allied character within range 3 of you. A hostile character attempts to attack or interact with an object chosen when you take Unleash Scylla and within line of sight. Characters are aware of the object chosen.",
+    "Frequency": "2/round",
+    "Detail": "Skirmish against the character that triggered the reaction. This skirmish deals half damage, heat or burn on hit."
+  },
+  {
+    "LCP": "lancer-data-master.lcp",
+    "json_inside_zip": "systems.json",
+    "min_talent_rank": "",
+    "Parent_ID": "ms_singularity_motivator",
+    "Name": "Exposed Singularity",
+    "Trigger": "Your mech takes damage.",
+    "Frequency": "1/round",
+    "Detail": "You may immediately teleport to a free space within 1d6 spaces."
+  },
+  {
+    "LCP": "lancer-data-master.lcp",
+    "json_inside_zip": "systems.json",
+    "min_talent_rank": "",
+    "Parent_ID": "ms_sisyphus_class_nhp",
+    "Name": "Probabilistic Cannibalism",
+    "Trigger": "You or any other character within Sensors would roll a d20",
+    "Frequency": "2/round",
+    "Detail": "Choose X or Y. That number immediately becomes the result of the roll.<br>This reaction can be used no more than two times before the start of your next turn."
+  },
+  {
+    "LCP": "lancer-data-master.lcp",
+    "json_inside_zip": "systems.json",
+    "min_talent_rank": "",
+    "Parent_ID": "ms_stasis_bolt",
+    "Name": "Interdiction Point",
+    "Trigger": "You or an allied character within range 5 are targeted by a ranged attack.",
+    "Frequency": "1/round",
+    "Detail": "Make a contested ranged attack roll: if you win the contested roll, the attack automatically misses. The Stasis Bolt loses its charge."
+  },
+  {
+    "LCP": "lancer-data-master.lcp",
+    "json_inside_zip": "systems.json",
+    "min_talent_rank": "",
+    "Parent_ID": "ms_turret_drones",
+    "Name": "Turret Attack",
+    "Trigger": "An allied character within Range 10 of a turret drone makes a successful attack.",
+    "Frequency": "1/round",
+    "Detail": "The turret drone deals 3 Kinetic damage to their target, as long as it has line of sight to their target."
+  },
+  {
+    "LCP": "lancer-data-master.lcp",
+    "json_inside_zip": "weapons.json",
+    "min_talent_rank": "",
+    "Parent_ID": "mw_autopod",
+    "Name": "Autonomous Assault",
+    "Trigger": "Another character attacks a target within range 15 of you and consumes Lock On",
+    "Frequency": "1/round",
+    "Detail": "You may automatically hit their target with the Autopod."
+  },
+  {
+    "LCP": "lancer-data-master.lcp",
+    "json_inside_zip": "weapons.json",
+    "min_talent_rank": "",
+    "Parent_ID": "mw_vorpal_gun",
+    "Name": "Snicker-Snack",
+    "Trigger": "A hostile character within Range of the Vorpal Gun and line of sight deals damage to an allied character.",
+    "Frequency": "1/round",
+    "Detail": "You may make an attack against the hostile character with the Vorpal Gun."
+  },
+  {
+    "LCP": "lancer-data-master.lcp",
+    "json_inside_zip": "talents.json",
+    "min_talent_rank": "1",
+    "Parent_ID": "t_ace",
+    "Name": "Acrobatics",
+    "Trigger": "Any time an attack misses you.",
+    "Frequency": "Unlimited",
+    "Detail": "You may fly up to 2 spaces in any direction."
+  },
+  {
+    "LCP": "lancer-data-master.lcp",
+    "json_inside_zip": "talents.json",
+    "min_talent_rank": "3",
+    "Parent_ID": "t_ace",
+    "Name": "Supersonic",
+    "Trigger": "Your target's turn ends.",
+    "Frequency": "1/round",
+    "Detail": "You fly to a space free and adjacent to them. There must be a path to do so but you can move even if the nominated character is no longer within your movement range or line of sight. This ignores engagement and does not provoke reactions."
+  },
+  {
+    "LCP": "lancer-data-master.lcp",
+    "json_inside_zip": "talents.json",
+    "min_talent_rank": "2",
+    "Parent_ID": "t_bonded",
+    "Name": "Intercede",
+    "Trigger": "You are adjacent to your Bondmate (pilot or mech) and they take damage from a source within your line of sight.",
+    "Frequency": "1/round",
+    "Detail": "You may take the damage instead."
+  },
+  {
+    "LCP": "lancer-data-master.lcp",
+    "json_inside_zip": "talents.json",
+    "min_talent_rank": "2",
+    "Parent_ID": "t_duelist",
+    "Name": "Parry",
+    "Trigger": "You are hit by a melee attack",
+    "Frequency": "Unlimited (as long as you have Blademaster Die remaining)",
+    "Detail": "Expend 1 Blademaster die. You gain Resistance to all damage, heat, and burn dealt by the attack."
+  },
+  {
+    "LCP": "lancer-data-master.lcp",
+    "json_inside_zip": "talents.json",
+    "min_talent_rank": "2",
+    "Parent_ID": "t_duelist",
+    "Name": "Deflect",
+    "Trigger": "You are hit by a ranged attack",
+    "Frequency": "Unlimited (as long as you have Blademaster Die remaining)",
+    "Detail": "You may roll any number of Blademaster Dice, expending them: if you roll a 5+ on any of these dice, you gain Resistance to all damage, heat, and burn dealt by the attack."
+  },
+  {
+    "LCP": "lancer-data-master.lcp",
+    "json_inside_zip": "talents.json",
+    "min_talent_rank": "1",
+    "Parent_ID": "t_exemplar",
+    "Name": "Valiant Aid",
+    "Trigger": "Ally attacks your mark and misses.",
+    "Frequency": "1/round",
+    "Detail": "Your ally may reroll the attack. They must use the second result, even if it's worse."
+  },
+  {
+    "LCP": "lancer-data-master.lcp",
+    "json_inside_zip": "talents.json",
+    "min_talent_rank": "2",
+    "Parent_ID": "t_gunslinger",
+    "Name": "Return Fire",
+    "Trigger": "A character hits you with a ranged attack.",
+    "Frequency": "1/round",
+    "Detail": "You may immediately attack them with a single Auxiliary ranged weapon if they are within Range."
+  },
+  {
+    "LCP": "lancer-data-master.lcp",
+    "json_inside_zip": "talents.json",
+    "min_talent_rank": "1",
+    "Parent_ID": "t_heavy_gunner",
+    "Name": "Covering Fire Attack",
+    "Trigger": "The target of your Covering Fire moves more than 1 space.",
+    "Frequency": "1/round",
+    "Detail": "You may attack the target with a Heavy ranged weapon for half damage, Heat, or Burn. You can make this attack at any point during their movement (e.g., waiting until they exit cover)."
+  },
+  {
+    "LCP": "lancer-data-master.lcp",
+    "json_inside_zip": "talents.json",
+    "min_talent_rank": "2",
+    "Parent_ID": "t_leader",
+    "Name": "Issue Command",
+    "Trigger": "Another player starts their turn.",
+    "Frequency": "Unlimited",
+    "Detail": "You may issue a command to an allied PC you can communicate with, describing a course of action, and give them a Leadership Die. They may either expend the Leadership Die to gain +1 Accuracy on any action that directly follows from that order, or they may return it to you as a free action. Allies can have one Leadership Die at a time, which lasts until used or until the end of the current scene."
+  },
+  {
+    "LCP": "lancer-data-master.lcp",
+    "json_inside_zip": "talents.json",
+    "min_talent_rank": "3",
+    "Parent_ID": "t_tactician",
+    "Name": "Flank",
+    "Trigger": "A character who doesn't have cover from your position is successfully attacked by an allied character.",
+    "Frequency": "1/round",
+    "Detail": "You may target them with Overwatch, dealing half damage, heat or burn on a hit"
+  },
+  {
+    "LCP": "lancer-data-master.lcp",
+    "json_inside_zip": "actions.json",
+    "min_talent_rank": "",
+    "Parent_ID": "",
+    "Name": "Brace",
+    "Trigger": "You are hit by an attack and damage has been rolled.",
+    "Frequency": "1/round",
+    "Detail": "You count as having RESISTANCE to all damage, burn, and heat from the triggering attack, and until the end of your next turn, all other attacks against you are made at +1 difficulty. Due to the stress of bracing, you cannot take reactions until the end of your next turn and on that turn, you can only take one quick action, you cannot OVERCHARGE, move normally, take full actions, or take free actions."
+  },
+  {
+    "LCP": "lancer-data-master.lcp",
+    "json_inside_zip": "actions.json",
+    "min_talent_rank": "",
+    "Parent_ID": "",
+    "Name": "Overwatch",
+    "Trigger": "A hostile character starts any movement (including BOOST and other actions) inside one of your weapons THREAT.",
+    "Frequency": "1/round",
+    "Detail": "Trigger OVERWATCH, immediately using that weapon to SKIRMISH against that character as a reaction, before they move."
+  },
+  {
+    "LCP": "long-rim-data-1.2.1.lcp",
+    "json_inside_zip": "frames.json",
+    "min_talent_rank": "",
+    "Parent_ID": "mf_atlas",
+    "Name": "Jaeger Dodge",
+    "Trigger": "You take damage from a character larger than yourself",
+    "Frequency": "1/round",
+    "Detail": "Gain resistance to that damage and move 3 spaces in any direction, ignoring engagement and reactions."
+  },
+  {
+    "LCP": "long-rim-data-1.2.1.lcp",
+    "json_inside_zip": "frames.json",
+    "min_talent_rank": "",
+    "Parent_ID": "mf_lich",
+    "Name": "Soul Vessel",
+    "Trigger": "The Lich is hit by an attack, fails a save or check, or takes damage or heat from any source (even itself)",
+    "Frequency": "1/round",
+    "Detail": "Immediately gain IMMUNITY to all damage, heat, or conditions from that effect. It then teleports to the marker or as close as possible."
+  },
+  {
+    "LCP": "long-rim-data-1.2.1.lcp",
+    "json_inside_zip": "systems.json",
+    "min_talent_rank": "",
+    "Parent_ID": "ms_jaeger_kunst_ii",
+    "Name": "Fatal Clash",
+    "Trigger": "You take damage from or deal damage with a melee attack",
+    "Frequency": "1/round",
+    "Detail": "After damage has been resolved, you and your target each roll a contested Hull or Agility check (each party choosing which to roll). The loser is knocked Prone, takes 1d6 kinetic damage, and is knocked back 3 spaces in a direction chosen by the winner. The winner may then move 3 spaces in any direction, ignoring engagement and not provoking reactions. The loser may immediately take 2 AP kinetic damage to force the contest to be rerolled. This damage cannot be prevented or reduced in any way.<br>If the result is a tie, the contest immediately ends. Otherwise, the contest continues until one character loses without forcing a re-roll or would take structure damage, in which case they immediately lose."
+  },
+  {
+    "LCP": "long-rim-data-1.2.1.lcp",
+    "json_inside_zip": "weapons.json",
+    "min_talent_rank": "",
+    "Parent_ID": "mw_terashima_blade",
+    "Name": "Storm Stance Reaction",
+    "Trigger": "After hitting with this weapon while in Storm Stance.",
+    "Frequency": "1/round",
+    "Detail": "You may immediately deal 2 kinetic to all other characters adjacent to you and your target."
+  },
+  {
+    "LCP": "osr-data-1.1.2.lcp",
+    "json_inside_zip": "systems.json",
+    "min_talent_rank": "",
+    "Parent_ID": "ms_pattern_c_advanced_charges",
+    "Name": "Selective Detonation",
+    "Trigger": "A character enters the lurker mine's space or an adjacent space, or begins their turn there.",
+    "Frequency": "1/Mine",
+    "Detail": "The mine detonates and affected characters must pass an Agility save or take 2d6 explosive damage. On a success, they take half damage."
+  },
+  {
+    "LCP": "ssmr_1.6.5.lcp",
+    "json_inside_zip": "talents.json",
+    "min_talent_rank": "1",
+    "Parent_ID": "mf_orator",
+    "Name": "Convincing Rhetoric",
+    "Trigger": "You or an allied character takes the Scan Quick Tech action against a hostile character.",
+    "Frequency": "1/round",
+    "Detail": "You open an isolated comms channel with your target and they become Impaired. This lasts until they succeed on a Systems check at the end of their turn. They cannot clear Impaired any other way. Using this reaction again on a new character ends the Impaired condition early."
+  },
+  {
+    "LCP": "ssmr_1.6.5.lcp",
+    "json_inside_zip": "systems.json",
+    "min_talent_rank": "",
+    "Parent_ID": "ms_exo_kinesthetic_suit_upgrade",
+    "Name": "Spatial Awareness",
+    "Trigger": "A character ends a movement adjacent to you.",
+    "Frequency": "1/round",
+    "Detail": "You may Boost, ignoring reactions and engagement. After doing so, attacks against you receive +1 Difficulty until the end of your next turn."
+  },
+  {
+    "LCP": "wallflower-data-2.1.0.lcp",
+    "json_inside_zip": "talents.json",
+    "min_talent_rank": "1",
+    "Parent_ID": "t_empath",
+    "Name": "Sympathetic Precognition",
+    "Trigger": "An allied character in line of sight makes a skill check, attack, or save.",
+    "Frequency": "1/scene",
+    "Detail": "That character may choose not to roll, instead treating their check, attack, or save as if they had rolled a 10 on the d20."
+  }
+]

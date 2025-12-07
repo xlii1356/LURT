@@ -1,0 +1,156 @@
+/* Base Layout */
+.lurt-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    overflow: hidden;
+}
+
+.lurt-header {
+    flex: 0 0 auto;
+    margin-bottom: 8px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid rgba(0,0,0,0.1);
+}
+
+.lurt-header .controls button {
+    margin-left: 5px;
+    width: auto;
+    padding: 0 10px;
+}
+
+.reaction-list {
+    flex: 1;
+    overflow-y: auto;
+    padding-right: 5px;
+}
+
+.reaction-item {
+    border: 1px solid rgba(0,0,0,0.5);
+    margin-bottom: 6px;
+    padding: 6px;
+    border-radius: 4px;
+    align-items: flex-start;
+}
+
+.reaction-content {
+    flex: 1;
+    padding-right: 10px;
+}
+
+.reaction-name {
+    margin: 0 0 5px 0;
+    font-size: 1.2em;
+    font-weight: bold;
+    border: none;
+}
+
+.reaction-name.strikethrough {
+    text-decoration: line-through;
+    opacity: 0.7;
+}
+
+.reaction-details p {
+    margin: 2px 0;
+    font-size: 0.9em;
+}
+
+.reaction-actions {
+    flex: 0 0 80px;
+}
+
+.reaction-actions button {
+    height: 100%;
+    min-height: 40px;
+}
+
+
+/* --- THEMES --- */
+
+/* GMS */
+.lurt-container.theme-gms {
+    background-color: #f4f4f4;
+    color: #333; /* Dark text for light bg */
+}
+.theme-gms .reaction-item {
+    background-color: #991E2A; /* Frame BG */
+}
+.theme-gms .reaction-item .reaction-content {
+    color: #dbdbdb; /* Label FG */
+}
+.theme-gms .reaction-item button { /* Button BG */
+    background: #991E2A;
+    color: #f4f4f4;
+    border: 1px solid #dbdbdb;
+}
+.theme-gms .reaction-item button:hover {
+    background: #b92433;
+}
+.theme-gms .reaction-item.exhausted .reaction-content {
+    color: #555555;
+}
+
+
+/* Horus */
+.lurt-container.theme-horus {
+    background-color: #2b2b2b;
+}
+.theme-horus .reaction-item {
+    background-color: #126127;
+}
+.theme-horus .reaction-name,
+.theme-horus .reaction-details {
+    color: #00d900;
+}
+.theme-horus button.use-reaction {
+    background: #005500;
+    color: #00d900;
+    border: 1px solid #00d900;
+}
+.theme-horus .reaction-item.exhausted .reaction-name,
+.theme-horus .reaction-item.exhausted .reaction-details {
+    color: #444444;
+}
+
+/* MSMC */
+.lurt-container.theme-msmc {
+    background-color: #263237;
+}
+.theme-msmc .reaction-item {
+    background-color: #146464;
+}
+.theme-msmc .reaction-name,
+.theme-msmc .reaction-details {
+    color: #dbdbdb;
+}
+.theme-msmc button.use-reaction {
+    background: #146464;
+    color: #dbdbdb;
+    border: 1px solid #dbdbdb;
+}
+.theme-msmc .reaction-item.exhausted .reaction-name,
+.theme-msmc .reaction-item.exhausted .reaction-details {
+    color: #555555;
+}
+
+/* Harrison Armory */
+.lurt-container.theme-harrison-armory {
+    background-color: #2b2b2b;
+}
+.theme-harrison-armory .reaction-item {
+    background-color: #771675;
+}
+.theme-harrison-armory .reaction-name,
+.theme-harrison-armory .reaction-details {
+    color: #dbdbdb;
+}
+.theme-harrison-armory button.use-reaction {
+    background: #771675;
+    color: #dbdbdb;
+    border: 1px solid #dbdbdb;
+}
+.theme-harrison-armory .reaction-item.exhausted .reaction-name,
+.theme-harrison-armory .reaction-item.exhausted .reaction-details {
+    color: #5b5160;
+}
